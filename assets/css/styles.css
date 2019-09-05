@@ -1,0 +1,35 @@
+.tree ul{
+    padding-left:0;
+}
+.tree li{
+    margin: 0.4em 0;
+    display: block;
+}
+.tree li ul{
+    padding-left:0.9rem;
+    font-size: 0.95em;
+}
+.tree .selected{
+    background-color: #00f;
+    color: #fff;
+}
+.tree *{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.tree input[type=checkbox], .tree input[type=radio] {
+	float: left;
+    margin: 0.5em 0.5em 0 0;
+}
+
+.tree .item.choose{
+	font-weight: bold;
+}
+.tree .subitems{
+	display: none;
+}
+.tree .expand{
+    cursor: pointer;
+    padding-right: 0.2em;
+}

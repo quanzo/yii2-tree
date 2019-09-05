@@ -1,0 +1,28 @@
+{
+    "name": "quanzo/yii2-tree",
+    "description": "Ajax tree mapping. Adjacency list tree type. The ability to change the structure.",
+    "authors": [
+        {
+            "name": "Quanzo",
+            "email": "iquanzo@gmail.com"
+        }
+    ],
+    "keywords": [
+        "yii2",
+		"adjacency list",
+		"yii2 module",
+		"adjacency list tree",
+		"tree"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "x51\\yii2\\modules\\tree\\": ""
+        }
+    }
+}
